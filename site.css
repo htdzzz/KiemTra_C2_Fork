@@ -1,41 +1,58 @@
 /* Reset */
+/* Fork */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .login {
     display: flex;
     align-items: center;
 }
 
 .login button {
-    margin-right: 5px; /* Khoảng cách giữa các nút */
-    padding: 4px 14px; /* Điều chỉnh padding để tăng kích thước của nút */
+    margin-right: 5px;
+    /* Khoảng cách giữa các nút */
+    padding: 4px 14px;
+    /* Điều chỉnh padding để tăng kích thước của nút */
     font-size: 16px;
     border: none;
-    color: #000000; /* Màu chữ của nút */
+    color: #000000;
+    /* Màu chữ của nút */
     cursor: pointer;
 }
+
 .search {
-    margin-right: 10px; /* Khoảng cách giữa nút và ô tìm kiếm */
+    margin-right: 10px;
+    /* Khoảng cách giữa nút và ô tìm kiếm */
 }
+
 .search input[type="text"] {
-    padding: 4px 14px; /* Điều chỉnh padding để tăng kích thước của ô nhập liệu */
-    border: 1px solid #868686; /* Đường viền của ô nhập liệu */
+    padding: 4px 14px;
+    /* Điều chỉnh padding để tăng kích thước của ô nhập liệu */
+    border: 1px solid #868686;
+    /* Đường viền của ô nhập liệu */
     font-size: 14px;
 }
 
 img.social-icon {
-    width: 70px; /* Kích thước chiều rộng */
-    height: 25px; /* Để tự động tính to     án chiều cao dựa trên tỷ lệ khung hình */
-    margin-right: 10px; /* Khoảng cách giữa các biểu tượng */
+    width: 70px;
+    /* Kích thước chiều rộng */
+    height: 25px;
+    /* Để tự động tính to     án chiều cao dựa trên tỷ lệ khung hình */
+    margin-right: 10px;
+    /* Khoảng cách giữa các biểu tượng */
     margin-left: 10px;
 }
+
 img.call-icon {
-    width: 20px; /* Kích thước chiều rộng */
-    height: 20px; /* Để tự động tính toán chiều cao dựa trên tỷ lệ khung hình */
-    margin-right: 5px; /* Khoảng cách giữa các biểu tượng */
+    width: 20px;
+    /* Kích thước chiều rộng */
+    height: 20px;
+    /* Để tự động tính toán chiều cao dựa trên tỷ lệ khung hình */
+    margin-right: 5px;
+    /* Khoảng cách giữa các biểu tượng */
     margin-left: 5px;
 }
 
@@ -111,7 +128,7 @@ article .container {
 }
 
 article .container .trang-nhat,
-article .container .trang-hai ,
+article .container .trang-hai,
 article .container .trang-ba {
     padding: 0 5px;
 }
@@ -119,16 +136,20 @@ article .container .trang-ba {
 article .container .trang-nhat {
     width: 50%;
 }
+
 article .container .trang-nhat p {
     font-size: 20px;
     padding: 10px;
 }
+
 article .container .trang-hai {
     width: 18%;
 }
+
 article .container .trang-ba {
     width: 50%;
 }
+
 article .container h2,
 article .container h3 {
     color: #ff008d;
